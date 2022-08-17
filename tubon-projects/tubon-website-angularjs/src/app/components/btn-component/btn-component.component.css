@@ -1,0 +1,15 @@
+.btn-component {
+    background: white;
+    border: 2px solid #333;
+    border-radius: 4px;
+    color: #333;
+    transition: 0.1s ease-in;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.btn-component:hover {
+    background: #333;
+    color: white !important;
+    text-decoration: none;
+}

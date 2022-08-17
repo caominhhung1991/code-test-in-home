@@ -1,0 +1,27 @@
+.cantin-1 {
+    height: 600px;
+    background: url("../../../assets/hoa-qua-1.jpg") no-repeat center center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.cantin-1 h1 {
+    width: 600px;
+    margin: auto;
+    line-height: 49px;
+    /* font-family: 'lobster'; */
+    margin-top: 20px;
+}
+
+.cantin-1 .border-bottom {
+    width: 60px;
+    height: 8px;
+    margin: auto;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+}
+
+
+

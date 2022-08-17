@@ -1,0 +1,65 @@
+.tuyen-dung-img {
+    height: 500px;
+    background: url('./../../../assets/img/tuyen-dung.jpg') center;
+    background-size: cover;
+}
+
+h3 {
+    /* font-family: 'GothamBlack'; */
+}
+
+
+.card-text {
+    margin-bottom: 5px;
+}
+
+ol {
+    padding-left: 12px;
+}
+
+
+.tuyen-dung {
+    background: #f4f4f446;
+    padding-top: 30px;
+}
+
+h2 {
+    font-family: 'anton';
+    color: #28a745;
+}
+
+.closed, .opend {
+    color: #28a745;
+    float: right;
+    position: relative;
+    top: 5px;
+}
+
+.card {
+    border-radius: 0 !important;
+}
+
+.card-header {
+    background: white;
+}
+
+.card-body {
+    background: #f4f4f446;
+}
+
+.card-text {
+    margin-bottom: 5px;
+}
+
+.active {
+    background: #a4fcb65b;
+}
+
+@media (max-width: 576px) {
+    .tuyen-dung-img {
+        height: 200px;
+    }
+    .card {
+        margin-bottom: 0px !important;
+    }
+}

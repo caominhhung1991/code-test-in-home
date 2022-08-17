@@ -1,0 +1,123 @@
+h1 {
+    font-family: 'anton';
+    line-height: 70px;
+    text-align: center;
+    padding-top: 80px;
+    padding: 80px 10px 0 10px;
+    color: #60B457;
+    font-size: 55px;
+    text-shadow: 0 0 5px white;
+}
+
+#parallax1 {
+    background: url('../../../../assets/img/cung-cap-thuc-pham/cctp-img4.jpg');
+    height: 800px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#parallax2 {
+    background: url('../../../../assets/img/cung-cap-thuc-pham/cctp-img1.jpg');
+    height: 650px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gioi-thieu {
+    /* flex-flow: wrap; */
+    width: 100%;
+    padding: 15px 0;
+    background: rgba(255, 255, 255, 0.65);
+    position: absolute;
+    bottom: 0;
+    margin: 0 !important;
+}
+
+.kind {
+    text-align: center;
+    position: relative;
+    margin-bottom: 8px;
+    /* width: 80%; */
+    /* margin: 10px; */
+    /* padding: 30px; */
+}
+
+.kind h3 {
+    color: #60B457;
+    position: absolute;
+    font-family: 'anton';
+    bottom: 20px;
+    font-size: 40px;
+    left: 22%;
+    text-shadow: 0 0 2px white;
+}
+
+/* .parallax2 {
+    width: 100%;
+} */
+
+.cctp-info {
+    width: 75%;
+    position: relative;
+    top: 45px;
+    /* margin: 30px 0px 30px 0; */
+    padding: 25px;
+    background: rgba(230, 250, 224, 0.9);
+}
+
+.head-title {
+    font-size: 45px;
+    /* color: #ccc; */
+}
+
+@media (max-width: 991px) { 
+    .kind h3 {
+        font-size: 30px;
+        left: 22%;
+        bottom: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 55px;
+    }
+    #parallax1 {
+        /* height: 60%; */
+    }
+    .kind h3 {
+        font-size: 3vw;
+        left: 23%;
+        bottom: 10px;
+    }
+    .cctp-info {
+        width: 92%;
+        margin: 0 20px 20px 20px;
+    }
+
+}
+
+@media (max-width: 567px) {
+    #parallax1 {
+        height: 1300px;
+    }
+    h1 {
+        padding-top: 60px;
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .kind h3 {
+        font-size: 45px;
+        bottom: 20px;
+    }
+
+
+    
+}

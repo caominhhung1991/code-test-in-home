@@ -1,0 +1,86 @@
+.gioi-thieu p {
+    font-size: 14px;
+    color: #808080;
+}
+
+.gioi-thieu {
+    text-align: justify;
+}
+
+
+.tuyen-dung-img {
+    height: 500px;
+    background: url('./../../../assets/img/tuyen-dung.jpg') center;
+    background-size: cover;
+}
+
+.logo-cantin2 {
+    /* background: green; */
+    /* margin: auto; */
+    text-align: center;
+}
+
+.logo-cantin2 img {
+    width: 70%;
+    /* margin: auto; */
+}
+
+.tuyen-dung {
+    background: #f4f4f4;
+    padding-top: 30px;
+}
+
+h2 {
+    font-family: 'anton';
+    color: #28a745;
+}
+
+.closed, .opend {
+    color: #28a745;
+    float: right;
+    position: relative;
+    top: 5px;
+}
+
+.chuc-danh {
+    display: block;
+    width: 100%;
+    padding: 10px 24px;
+    background: #28a745;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+.card {
+    border-radius: 0 !important;
+}
+
+.card-header {
+    background: white;
+}
+
+.card-body {
+    background: #f4f4f4;
+}
+
+.card-text {
+    margin-bottom: 5px;
+}
+
+.active {
+    background: #a4fcb65b;
+}
+@media (max-width: 576px) {
+    .tuyen-dung-img {
+        height: 200px;
+    }
+
+    .logo-cantin2 img {
+        width: 40%;
+        /* margin: auto; */
+    }
+    .card {
+        margin-bottom: 0px !important;
+    }
+}

@@ -1,0 +1,120 @@
+footer {
+    height: 100%;
+    background: rgb(241, 241, 241);
+    padding: 30px 0 30px 0;
+}
+
+footer h1 {
+    font-family: "Lobster";
+    color: #333;
+    font-size: 60px;
+}
+
+footer h4 {
+    color: #333;
+    font-size: 18px;
+    font-family: "Lobster";
+}
+
+i {
+    transition: 0.4s ease;
+}
+
+a {
+    text-decoration: none;
+}
+
+h3 {
+    font-weight: bold;
+}
+
+.back-to-top p {
+    font-size: 13px;
+    color: #333;
+    font-weight: bold;
+}
+
+.fa {
+    font-size: 18px;
+}
+
+.fa-chevron-up {
+    font-size: 22px;
+    color: #333;
+}
+
+.fa-chevron-up:hover {
+    color: gray;
+}
+
+#map {
+    /* width: 90%; */
+    height: 600px;
+    margin: auto;
+    border: 7px solid #fff;
+    background: #fff;
+}
+
+.footer-map {
+    
+    
+}
+app-map {
+    
+}
+.info {
+    position: relative;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    color: #333;
+    margin-bottom: 1px;
+    font-size: 14px;
+}
+
+li a:hover {
+    color: black;
+}
+
+li a {
+    color: #333;
+}
+
+.website {
+    font-family: 'Satisfy';
+}
+
+.gallary {
+    display: flex;
+    width: 300px;
+    flex-flow: row wrap;
+}
+
+.sm-img {
+    width: 90px;
+    height: 70px;
+    padding: 0 4px 4px 0;
+}
+
+.col-md-2, .col-sm-6, .col-md-4, .col-md-6 {
+    margin-bottom: 10px;
+}
+
+.chitiet {
+    padding: 0 25px;
+    border: 1px solid #333;
+    margin-bottom: 3px;
+}
+
+.gototop {
+    z-index: 100;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}

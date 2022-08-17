@@ -1,0 +1,12 @@
+h2 {
+    font-family: 'anton';
+    color: #28a745;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+@media (max-width: 576px) {
+    h2 {
+        font-size: 35px;
+    }
+}

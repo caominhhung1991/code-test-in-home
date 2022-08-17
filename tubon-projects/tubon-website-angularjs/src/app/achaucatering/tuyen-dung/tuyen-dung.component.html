@@ -1,0 +1,66 @@
+<div class="tuyen-dung-img"></div>
+
+<div class="container my-4">
+  <div class="row">
+    <div class="col-md-7 gioi-thieu">
+      <h2>LÀM VIỆC TẠI Á CHÂU</h2>
+      <p>Công ty Á Châu luôn phấn đấu trở thành nơi làm việc tốt nhất. Điều đó có nghĩa là cung cấp một môi trường làm việc
+        năng động, mang đến những phúc lợi và cơ hội phát triển nghề nghiệp tương xứng. Cho dù làm việc tại cửa hàng hay
+        tại văn phòng, mỗi nhân viên đều đóng một vai trò quan trọng trong sự thành công của công ty. Tại Á Châu, mỗi nhân
+        viên là một mắt xích quan trọng tạo nên một đội ngũ vững mạnh và thống nhất. Cơ hội luôn rộng mở rộng cho tất cả
+        nhân viên, những người thể hiện tài năng, nhiệt huyết và cam kết. Chúng tôi chia sẻ với nhau những kinh nghiệm, niềm
+        vui và luôn sẵn lòng học hỏi lẫn nhau để trở thành những công dân có ích. Mọi nỗ lực và thành quả của các bạn đều
+        được chúng tôi công nhận và khen thưởng kịp thời – đó là động lực rất lớn giúp bạn tìm thấy sự hứng khởi và sẵn sàng
+        đón nhận những thách thức mới trong công việc.</p>
+      <p>Để tìm hiểu thêm về các cơ hội nghề nghiệp, xin vui lòng tìm hiểu các vị trí tuyển dụng bên dưới và liên hệ đến Công
+        ty TNHH Á Châu Catering: </p>
+
+      <h6>Văn phòng Bình Dương: Phòng Nhân Sự – Bộ phận Tuyển Dụng</h6>
+      <p>
+        Địa chỉ: 54-56, đường số 44, P. Hoà Phú, Tp. Thủ Dầu Một, Bình Dương Điện thoại: 02746.55.75.98 - gặp anh Triều Email: trieu@achaucatering.com
+      </p>
+    </div>
+    <div class="col-md-5 logo-cantin2">
+      <img class="" src="assets/logo-cantin2.gif" alt="a-chau">
+    </div>
+  </div>
+</div>
+
+<div class=" tuyen-dung">
+  <div class="container">
+    <h2 class="text-center">VỊ TRÍ TUYỂN DỤNG</h2>
+  </div>
+  <span class="chuc-danh">Chức danh</span>
+  <div id="tttd" class="card-group flex-column">
+    <div class="card" *ngFor="let tuyendung of tuyendungs">
+      <div class="card-header pointer" data-toggle="collapse" [attr.data-target]="'#'+tuyendung.id" (click)="onSelect(tuyendung)"
+        [class.active]="tuyendung === selectedTD">
+        {{tuyendung.chucdanh}}
+        <span data-toggle="collapse" [attr.data-target]="'#'+tuyendung.id" (click)="onSelect(tuyendung)" [class.active]="tuyendung === selectedTD">
+          <i *ngIf="tuyendung !== selectedTD" class="fa fa-plus closed"></i>
+          <i *ngIf="tuyendung === selectedTD" class="fa fa-minus opend"></i>
+        </span>
+      </div>
+      <div id="{{tuyendung.id}}" class="collapse" data-parent="#tttd">
+        <div class="card-body">
+          <p class="card-text">
+            <strong>Bộ phận:</strong> {{tuyendung.bophan}}</p>
+          <p class="card-text">
+            <strong>Số lượng:</strong> {{tuyendung.soluong}}</p>
+          <p class="card-text">
+            <strong>Địa điểm làm việc:</strong> {{tuyendung.diadiem}}</p>
+          <p class="card-text">
+            <strong>Ngày hết hạn:</strong> {{tuyendung.ngayhethan}}
+          </p>
+          <button class="btn btn-success mt-2 pointer" routerLink="{{tuyendung.id}}">Xem thêm
+            <i class="fa fa-long-arrow-right"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div style="height: 50px; background: white">
+
+</div>

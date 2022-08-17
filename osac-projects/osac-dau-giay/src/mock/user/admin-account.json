@@ -1,0 +1,11 @@
+{
+  "quanLyTaiKhoan": {
+    "access": true
+  },
+  "account": {
+    "access": true
+  },
+  "phanQuyenDuongDan": {
+    "access": true
+  }
+}

@@ -1,0 +1,48 @@
+/* Cac dich vu*/
+.gioi-thieu-2 {
+    display: flex;
+    flex-flow: row nowrap;
+    align-content: center;
+    justify-content: center;
+    background: url("../../../assets/gioi-thieu2.jpg") no-repeat center center;
+    background-size: cover;
+    padding: 100px 0;
+}
+.card {
+    width: 70%;
+}
+.gioi-thieu-2 h2, .gioi-thieu-2 h4, .gioi-thieu-2 h6 {
+    font-family: 'Lobster';
+    text-align: center;
+}
+
+.gioi-thieu-2 h2 {
+    font-size: 45px;
+}
+
+.the-border-bottom {
+    width: 60px;
+    height: 8px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-top: 2px solid #333;
+    border-bottom: 2px solid #333;
+}
+
+.card-footer {
+    border: none;
+    text-align: center;
+}
+.xem-menu {
+    background: white;
+    border: 2px solid #333;
+    color: #333;
+    transition: 0.3s ease-in;
+}
+
+.xem-menu:hover {
+    background: #333;
+    color: white;
+}
+

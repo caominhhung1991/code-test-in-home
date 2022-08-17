@@ -1,0 +1,78 @@
+/* Cac dich vu*/
+.dich-vu {
+    /* display: flex;
+    flex-flow: row nowrap;
+    align-content: center;
+    justify-content: center; */
+    /* background: #ddd; */
+    background: url("../../../assets/gioi-thieu7.jpg") no-repeat center center;
+    background-size: cover;
+    padding: 9%;
+}
+
+
+.the-border-bottom {
+    width: 60px;
+    height: 8px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-top: 2px solid #28a745;
+    border-bottom: 2px solid #28a745;
+}
+
+.see-more {
+    position: relative;
+    border-radius: 0;
+    bottom: -50px;
+    background: red;
+    color: white !important;
+    text-shadow: -1px -1px 1 gray;
+}
+
+.xem-them {
+    background: white;
+    border: 2px solid #333;
+    border-radius: 4px;
+    color: #333;
+    transition: 0.3s ease-in;
+    padding: 5px;
+}
+
+.xem-them:hover {
+    background: #333;
+    color: white !important;
+    text-decoration: none;
+}
+
+.card-group {
+    /* flex-flow: row wrap; */
+}
+.card {
+    text-align: center;
+}
+.card-img-top {
+    position: relative;
+    top: 3%;
+    left: 18%;
+    width: 65%;
+}
+
+.card-title {
+    font-family: lobster;
+    color: #28a745;
+}
+
+.dich-vu .card:first-child {
+    margin-right: 50px;
+}
+
+.dich-vu .card:last-child {
+    margin-left: 50px;
+}
+
+.card-footer {
+    border: none;
+    text-align: center;
+    padding-bottom: 30px;
+}

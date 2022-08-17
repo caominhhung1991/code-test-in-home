@@ -1,0 +1,51 @@
+/* .gioi-thieu3 {
+    background: rgb(250, 248, 248);
+    background: url("../../../assets/gioi-thieu6.jpg");
+    background-size: cover;
+    height: 480px;
+} */
+
+.bcg-parallax {
+    padding: 30px 0;
+    /* color: #fff; */
+    background-color: rgb(238, 238, 238);
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    font-family: lobster;
+    border-bottom: 1px solid #ccc;
+}
+
+#jssor_1 {
+    position:relative;
+    margin:0 auto;
+    top:0px;
+    left:0px;
+    width:980px;
+    height:100px;
+    overflow:hidden;
+    visibility:hidden;
+}
+
+#jssor-content {
+    cursor:default;
+    position:relative;
+    /* top:0px;
+    left:0px; */
+    width:980px;
+    height:100px;
+    overflow:hidden;
+}
+
+#jssor-content div {
+    padding: 5px;
+    border: 0.5px solid #ccc;
+    margin-left: 10px;
+}
+
+
+@media (max-width: 576px) {
+    h1 {
+        font-size: 30px;
+    }
+}

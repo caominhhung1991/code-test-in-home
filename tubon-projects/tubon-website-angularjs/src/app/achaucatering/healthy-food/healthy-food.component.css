@@ -1,0 +1,52 @@
+.healthy-food {
+    padding: 50px 0 0px 0;
+    background: rgb(250, 248, 248);
+}
+
+.healthy-food h1 {
+    text-align: center;
+    font-family: 'Lobster';
+}
+
+.healthy-food h3{
+    font-family: 'Lobster';
+}
+
+.healthy-food .anh1 {
+    
+}
+
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.anh1 {
+    width: 650px;
+    margin-left:-100px;
+}
+
+.info {
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+.info img {
+    margin-bottom: 20px;
+}
+
+.center {
+    position: relative;
+}
+
+.center-info {
+    position: absolute;
+    top: 225px;
+    left: 185px;
+    text-align: center;
+    font-size: 40px;
+    color: #60B457;
+    text-shadow: 1px 1px 3px lightgray;
+}
